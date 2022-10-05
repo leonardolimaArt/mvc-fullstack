@@ -1,0 +1,18 @@
+Java Vers.: 17
+O MYSQL Connector/J mais recente suporta versões mais antigas do MySql Workbench.
+Tomcat Vers.:  9.0
+
+Por algum motivo, para rodar em outras maquinas é necessario criar um novo projeto no eclipse e importar os codigos do meu projeto.
+
+1. Criar um novo projeto no seu eclipse com o mesmo nome do meu projeto(muito importante)
+2. Criar os pacotes "controller" e "model" tudo minusculo.
+3. Importar as classes, jsp, scripts(pasta scripts) e códigos para suas devidas pastas correlacionadas ao meu projeto.
+4. Importar a pasta de "imgs" do meu projeto.
+5. Configurar o servidor Tomcat 9.0.
+
+Se der erro de configuração de servlet:
+1. Project>Properties>JavaBuildPath>Libraries>"Excluir Server Runtime[Tomcat 9.0]">Selecionar "Classpath">Add Library>Server Runtime>Apache Tomcat 9.0>Finish>Apply and Close.
+
+Apenas isso.
+Att.
+-Leonardo Henrique.

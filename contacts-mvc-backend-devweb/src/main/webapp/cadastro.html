@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="utf-8">
+<link rel="icon" href="imgs/favicon.ico">
+<link rel="stylesheet" href="style.css">
+<title>MVC - Cadastro</title>
+
+</head>
+
+<header>
+<a href="index.html" style = "color: black;">
+<img src="imgs/google-contacts.png" class="logo">
+<p class="logoText">Leo's MVC Contacts</p>
+</a>
+<a href="index.html" style="position: absolute; right: 5%; top: 3%; font-weight: bold;">Voltar</a>
+</header>
+<body>
+<div>
+	<h1>Cadastro de usuário</h1>
+	<form action="cad">
+		<table  class = "tableLogin">
+			<tr>
+				<td><input type="text" name="nome" placeholder="Nome" class="camp0" required></td>
+			</tr>
+			<tr>
+				<td><input type="text" name="email" placeholder="Email" class="camp0" required></td>
+			</tr>
+			<tr>
+				<td><input type="password"  id = "senha" name="senha" placeholder="Senha" class="camp0" onchange="validSenha()" required></td>
+			</tr>
+			<tr>
+				<td id = "c0">❌ Uma letra maiúscula.</td>
+			</tr>
+			<tr>
+				<td id = "c1">❌ Um número.</td>
+			</tr>
+			<tr>
+				<td id = "c2">❌ Um caracter especial.</td>
+			</tr>
+		</table>
+		<br>
+		<input type="submit" id = "subutton" class="cadb" value="Cadastrar" disabled>
+	</form>
+	</div>	
+	<script src = "scripts/master_script.js"></script>
+</body>
+</html>
